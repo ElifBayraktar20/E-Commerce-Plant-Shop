@@ -1,0 +1,289 @@
+@import "./styles/variables.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* header start*/
+
+.headerContainer {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logoText {
+    position: absolute;
+    top: 44px;
+    left: 96px;
+    font-family: "Quella";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+.nav-list {
+    max-width: 315px;
+    position: absolute;
+    top: 48px;
+    left: 334px;
+}
+
+.nav-list ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 48px;
+}
+
+.nav-list a {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    text-decoration: none;
+}
+
+.homeLink {
+    color: var(--black);
+}
+
+.productsLink {
+    color: #1E1E1E80;
+}
+
+.contactsLink {
+    color: #1E1E1E80;
+}
+
+.nav-icons {
+    max-width: 216px;
+    position: absolute;
+    top: 48px;
+    left: 1128px;
+    display: flex;
+    gap: 48px;
+    padding: 0;
+}
+
+/* header end  */
+
+
+/* hero start */
+
+.heroContainer {
+    max-width: 1248px;
+    margin: auto;
+    margin-top: 100px;
+    max-height: 512px;
+    /* position: relative;
+    top: 123px;
+    left: 96px; */
+    border-radius: 24px;
+    background-color: var(--green);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 20px 80px; */
+}
+
+     /* hero sol */
+.heroLeft {
+    max-width: 512px;
+    margin-top: 61px;
+    margin-left: 68px;
+    margin-bottom: 120px;
+    /* flex: 1; */
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+
+}
+
+.heroMainText {
+    max-width: 512px;
+}
+
+.heroMainText p {
+
+    font-family: var(--font-f);
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 64px;
+}
+
+.heroMetrics {
+
+    /* max-width: 318px; */
+    display: flex;
+    align-items: center;
+    gap: 48px;
+
+}
+
+.species {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.species span:first-child {
+    font-family: var(--font-f);
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 100%;
+}
+
+.species span:last-child {
+    font-family: var(--font-f);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+}
+
+.customers {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.customers span:first-child {
+    font-family: var(--font-f);
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 100%;
+}
+
+.customers span:last-child {
+    font-family: var(--font-f);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+}
+
+.searchBar {
+    max-width: 449px;
+    width: 100%;
+    border-radius: 12px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+
+}
+
+.searchBar input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    outline: none;
+    padding: 10px;
+
+}
+
+#search {
+    font-family: var(--font-f);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+}
+
+.searchButton {
+    background-color: var(--green);
+    border-radius: 12px;
+    border: none;
+    padding: 10px;
+    width: 48px;
+    height: 48px;
+    display: grid;
+    place-items: center;
+}
+
+/* hero sağ */
+
+.heroRight {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.bubble {
+    position: absolute;
+    bottom: -8px;
+    right: 50px;
+    width: 500px;
+    height: 100%;
+    background: url("./images/bubble.svg") no-repeat center bottom;
+    z-index: 1;
+}
+
+.heroRight img {
+    position: relative;
+    z-index: 2;
+    max-width: 420px;
+    left: 40px;
+    bottom: -8px;
+}
+
+/* hero end */
+
+/* footer start */
+
+.footer {
+    max-width: 1440px;
+    max-height: 400px;
+    margin: auto;
+    top: 3616px;
+    position: relative;
+    background-color: var(--green);
+}
+
+.greenmindText {
+    max-width: 189px;
+    gap: 24px;
+}
+
+.greenmindText h4 {
+
+    font-family: "Quella";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+}
+
+.greenmindText p {
+    font-family: var(--font-f);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: #1E1E1E80;
+}
+
+.TermOfUse {
+    /* max-width: 429px; */
+    position: relative;
+    /* top: 325px; */
+    left: 97px;
+    font-family: var(--font-f);
+    font-weight: 500;
+    font-size: var(--size-m);
+    line-height: 100%;
+    color: #1E1E1E80;
+}
+
+/* footer end*/

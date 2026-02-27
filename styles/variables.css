@@ -1,0 +1,10 @@
+:root {
+    /* color */
+    --green: #C1DCDC;
+    --black: #1E1E1E;
+    /* font-size */
+    --size-s: 12px;
+    --size-m: 18px;
+    /* font-family */
+    --font-f: "poppins";
+}
