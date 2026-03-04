@@ -92,10 +92,16 @@
 
 }
 
-@media (max-width:570px) {
-    .headerContainer {
-        flex-direction: column;
-        align-items: center;
+@media (max-width:600px) {
+
+    .shopping,
+    .person,
+    .line {
+        display: none;
+    }
+
+    .logoText {
+        margin-left: 40px;
     }
 }
 
@@ -106,7 +112,6 @@
 
 .heroContainer {
     max-width: 1248px;
-    /* max-width: 1440px; */
     width: 100%;
     margin: auto;
     margin-top: 50px;
@@ -232,31 +237,40 @@
 
 /* hero sağ */
 
-/* .heroRight {
+.blackBubble {
+
     position: relative;
-    width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-.bubble {
-    position: absolute;
-    bottom: -8px;
-    right: 50px;
-    width: 500px;
-    height: 100%;
-    background: url("./images/bubble.svg") no-repeat center bottom;
+    width: 450px;
+    height: 400px;
+    margin-top: 130px;
+    margin-right: 70px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    background-color: var(--black);
     z-index: 1;
 }
 
 .heroRight img {
-    position: relative;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 70px;
     z-index: 2;
-    max-width: 420px;
-    left: 40px;
-    bottom: -8px;
-}  */
+}
+
+@media (max-width:1050px){
+    .heroRight{
+        display: none;
+    }
+    .heroContainer{
+        display:flex;
+        flex-direction: column;
+    }
+}
+
+/* @media (max-width:580px){
+} */
+
 
 /* hero end */
 
@@ -432,6 +446,11 @@
     }
 }
 
+@media (max-width:480px){
+    .footer-col{
+        flex-direction: column;
+    }
+}
 
 
 /* footer end*/
