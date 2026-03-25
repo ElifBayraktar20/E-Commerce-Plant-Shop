@@ -666,6 +666,21 @@ seeMore h4 {
     align-items: center;
 }
 
+@media (max-width:510px){
+    .testimonialContainer{
+        margin-left: 0px;
+    }
+    .testimonialTitle{
+        text-align: center;
+        font-size: 25px;
+    }
+}
+@media (max-width:470px){
+    .testimonialTitle{
+        font-size: 23px;
+    }
+}
+
 /* testimonials section end */
 
 /* footer start */
