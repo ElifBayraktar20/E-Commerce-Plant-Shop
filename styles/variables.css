@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Quella" ;
+    src: url("../fonts/quella/Quella.otf") format(truetype);
+    font-weight: 400;
+    font-style: normal;
+}
+
 :root {
     /* color */
     --green: #C1DCDC;
@@ -7,4 +14,5 @@
     --size-m: 18px;
     /* font-family */
     --font-f: "poppins";
+    --secondary-font:"Quella"
 }
