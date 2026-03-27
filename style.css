@@ -22,7 +22,6 @@
 }
 
 .nav-list {
-    /* max-width: 315px; */
     margin: auto;
     margin-top: 48px;
 }
@@ -513,7 +512,6 @@ seeMore h4 {
     max-width: 1440px;
     width: 100%;
     margin: auto;
-    /* margin-top: 100px; */
 }
 
 .categoryTitle {
@@ -835,9 +833,7 @@ seeMore h4 {
     flex-direction: column;
     gap: 24px;
 }
-.information li{
-   
-}
+
 .information a:hover{
     color: #000000;
 }
